@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_state_primary"
+        android:title="\uf0d8" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/favourite_state"
+        android:title="\uf0d8" />
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/notification_state"
+        android:title="\uf0d8" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/person_state"
+        android:title="\uf0d8" />
+
+
+</menu>

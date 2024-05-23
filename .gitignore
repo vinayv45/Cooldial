@@ -1,0 +1,19 @@
+/.idea
+.idea*
+"/.idea"
+"./idea*"
+".idea*"
+".idea"
+"app/build"
+.gradle/*
+NBS Android.iml
+app/app.iml
+local.properties
+app/debug/
+app/release/
+build
+build/*
+
+
+
+

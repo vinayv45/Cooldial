@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="@dimen/spacing_medium"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:gravity="center"
+                android:paddingBottom="@dimen/spacing_medium"
+                android:id="@+id/booking_id"
+                android:text="Result title"
+                android:textStyle="bold"
+                android:textSize="@dimen/title_size_xlarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/client_name"
+                android:paddingBottom="@dimen/spacing_small"
+                android:text="Sub title result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:visibility="gone"
+                android:gravity="center"
+                android:id="@+id/store_name"
+                android:paddingBottom="@dimen/spacing_small"
+                android:text="Sub title result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    android:id="@+id/statusRsv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_badge_xlarge"
+                    android:backgroundTint="@color/colorAccent"
+                    android:paddingStart="@dimen/spacing_xmedium"
+                    android:paddingEnd="@dimen/spacing_xmedium"
+                    android:singleLine="false"
+                    android:text="Test test"
+                    android:textColor="@android:color/white"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    android:id="@+id/statusPayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_badge_xlarge"
+                    android:backgroundTint="@color/colorAccent"
+                    android:paddingStart="@dimen/spacing_xmedium"
+                    android:paddingEnd="@dimen/spacing_xmedium"
+                    android:singleLine="false"
+                    android:text="Test test"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@android:color/white"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:id="@+id/updateStatusBtn"
+            android:text="@string/updateStatusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:id="@+id/seeMoreDetails"
+            android:text="@string/moreDetailBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:id="@+id/validateBtn"
+            android:text="@string/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

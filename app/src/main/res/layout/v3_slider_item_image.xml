@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="false"
+    tools:ignore="MissingDefaultResource">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/lyt_parent"
+        style="@style/RippleStyleWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/def_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_gradient"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/spacing_large"
+                android:paddingLeft="@dimen/spacing_large"
+                android:paddingTop="@dimen/spacing_mxlarge"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large"
+                android:paddingBottom="@dimen/spacing_large" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/spacing_large"
+                android:paddingLeft="@dimen/spacing_large"
+                android:paddingTop="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large"
+                android:paddingBottom="@dimen/spacing_large">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:lineSpacingExtra="-8sp"
+                    android:maxLines="2"
+                    android:layout_marginEnd="@dimen/spacing_medium"
+                    android:text="Breakfast \nBest Deals"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/btnOffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/seeMoreSlider"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size_small" />
+
+            </LinearLayout>
+
+            <me.huseyinozer.TooltipIndicator
+                android:id="@+id/tooltip_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ti_lineWidth="10dp"
+                app:ti_lineWidthSelected="32dp"
+                app:ti_lineHeight="2dp"
+                app:ti_lineMargin="2dp"
+                android:layout_gravity="center|bottom"
+                android:layout_marginStart="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_middle"
+                app:ti_selectedLineDrawable="@drawable/tooltip_indicator_rounded_line_selected"
+                app:ti_unselectedLineDrawable="@drawable/tooltip_indicator_rounded_line_unselected"
+                app:ti_tooltipWidth="100dp"
+                app:ti_tooltipHeight="180dp" />
+
+            <LinearLayout
+                android:id="@+id/layout_dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_margin="@dimen/spacing_medium"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="horizontal" />
+
+        </FrameLayout>
+
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>

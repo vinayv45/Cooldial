@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/people_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="@dimen/spacing_middle"
+            android:paddingStart="@dimen/spacing_middle"
+            android:paddingBottom="@dimen/spacing_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/card_title"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/people_nearby"
+                android:fontFamily="@font/my_default"
+                android:textStyle="bold"
+                android:textSize="17sp" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:id="@+id/card_show_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/view_all"
+                android:textAlignment="viewEnd"
+                android:drawablePadding="@dimen/spacing_medium"
+                android:fontFamily="@font/my_default"
+                android:textSize="@dimen/title_size_small"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_size_medium"
+            android:paddingEnd="@dimen/padding_size_medium"
+            app:shimmer_demo_angle="20"
+            app:shimmer_demo_child_count="10"
+            app:shimmer_demo_layout="@layout/v2_placeholder_item_user"
+            app:shimmer_demo_layout_manager_type="linear_horizontal" />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:clipToPadding="false"
+            android:paddingStart="@dimen/padding_size_medium"
+            android:paddingEnd="@dimen/padding_size_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_mxlarge"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+</merge>

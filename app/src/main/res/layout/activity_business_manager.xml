@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".business_manager.views.activities.BusinessManagerWebViewActivity"
+    tools:ignore="HardcodedText">
+
+
+    <LinearLayout
+        android:id="@+id/conatiner"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+
+        <im.delight.android.webview.AdvancedWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!-- this the navigation view which draws and shows the navigation drawer -->
+    <!-- include the menu created in the menu folder -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/bm_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/business_manager_navigation" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

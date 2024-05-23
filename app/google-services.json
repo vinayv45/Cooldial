@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968286780152",
+    "project_id": "cooldial",
+    "storage_bucket": "cooldial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968286780152:android:767857b659d775773fd90d",
+        "android_client_info": {
+          "package_name": "com.cooldial.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968286780152-asmiljk27ksgvadg107a5ndn0advcbtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cooldial.app",
+            "certificate_hash": "83e23ae95d4c2525d8e2f878987bfcd947315a7d"
+          }
+        },
+        {
+          "client_id": "968286780152-kchp3kkupfm2uchuo13dh8cflolj1all.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1u0BPwr0zIT0R2-k7vx4Zf4VY3D7L7tY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968286780152-kchp3kkupfm2uchuo13dh8cflolj1all.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

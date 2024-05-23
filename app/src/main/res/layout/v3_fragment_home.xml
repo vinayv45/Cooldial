@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_bg">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/mScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/v3_home_header" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray_bg"
+                    android:orientation="vertical">
+
+                    <!--Image Slider with animation effect  -->
+
+                    <com.droideve.apps.nearbystores.customView.SliderCustomView
+                        android:id="@+id/sliderCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <!-- Category list horizontal scroll view   -->
+                    <com.droideve.apps.nearbystores.customView.CategoryCustomView
+                        android:id="@+id/rectCategoryList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:catItemHeight="@dimen/v3_category_card_height"
+                        custom:cattItemWidth="@dimen/v3_category_card_width"
+                        custom:ccClickRedirection="true"
+                        custom:ccDisplayStoreNumber="true"
+                        custom:ccDisplayTitle="true"
+                        custom:ccLoader="true"
+                        custom:ccRect="true" />
+
+
+                    <!-- Store list horizontal scroll view   -->
+                    <com.droideve.apps.nearbystores.customView.StoreCustomView
+                        android:id="@+id/featuredStores"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:storeItemHeight="@dimen/v3_store_card_height"
+                        custom:storeItemWidth="@dimen/v3_store_card_width"
+                        custom:strHeader="@string/featured_places"
+                        custom:strLimit="6" />
+
+                    <!-- Store list horizontal scroll view   -->
+                    <com.droideve.apps.nearbystores.customView.StoreCustomView
+                        android:id="@+id/horizontalStoreList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:storeItemHeight="@dimen/v3_store_card_height"
+                        custom:storeItemWidth="@dimen/v3_store_card_width"
+                        custom:strHeader="@string/discover_stores_nearby"
+                        custom:strLimit="6" />
+
+                    <!-- Offers list horizontal scroll view -->
+                    <com.droideve.apps.nearbystores.customView.OfferCustomView
+                        android:id="@+id/nearbyOfferList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:ccDisplayHeader="true"
+                        custom:ocvLimit="6"
+                        custom:offerItemHeight="@dimen/v3_store_card_height"
+                        custom:ocvHeader="@string/offers_nearby"
+                        custom:offerItemWidth="@dimen/v3_store_card_width" />
+
+
+                    <include layout="@layout/busniess_manager_widget" />
+
+
+                    <!-- Offers list horizontal scroll view -->
+                    <com.droideve.apps.nearbystores.customView.OfferCustomView
+                        android:id="@+id/recentOffersList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:ccDisplayHeader="true"
+                        custom:ocvLimit="6"
+                        custom:ocvHeader="@string/recent_offers"
+                        custom:offerItemHeight="@dimen/v3_store_card_height"
+                        custom:offerItemWidth="@dimen/v3_store_card_width" />
+
+
+                    <!-- Store list horizontal scroll view   -->
+                    <com.droideve.apps.nearbystores.customView.StoreCustomView
+                        android:id="@+id/horizontalFeaturedStores"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:storeItemHeight="@dimen/v2_store_card_height"
+                        custom:storeItemWidth="@dimen/v2_store_card_width"
+                        custom:strHeader="@string/top_picked_for_you"
+                        custom:strLimit="6" />
+
+                    <!-- Events list horizontal scroll view -->
+                    <com.droideve.apps.nearbystores.customView.EventCustomView
+                        android:id="@+id/horizontalUpcomingEventList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        custom:eventItemHeight="@dimen/v3_event_card_height"
+                        custom:eventItemWidth="@dimen/v3_event_card_width"
+                        custom:evtLimit="4" />
+
+
+                    <!-- Users list horizontal scroll view -->
+                    <com.droideve.apps.nearbystores.customView.PeopleCustomView
+                        android:id="@+id/horizontalPeopleList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <net.orandja.shadowlayout.ShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_white_bg"
+        app:shadow_cast_only_background="true"
+        app:shadow_color="@color/card_shadow_color"
+        app:shadow_downscale="1"
+        android:id="@+id/shadow"
+        app:shadow_radius="8"
+        app:shadow_with_color="false"
+        app:shadow_with_css_scale="true"
+        app:shadow_with_dpi_scale="true"
+        app:shadow_x_shift="2dp"
+        app:shadow_y_shift="-2dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lltabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginBottom="-15dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@drawable/card_white_bg"
+                android:layout_marginBottom="10dp"
+                app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+                app:itemTextAppearanceInactive="@style/BottomNavigationView"
+                app:itemIconTint="@drawable/color_state_primary"
+                app:itemTextColor="@drawable/color_state_primary"
+                app:itemIconSize="@dimen/spacing_mxlarge"
+                app:labelVisibilityMode="unlabeled"
+                app:menu="@menu/v3_menu_bottom_navigation" />
+
+        </androidx.cardview.widget.CardView>
+
+    </net.orandja.shadowlayout.ShadowLayout>
+
+</RelativeLayout >

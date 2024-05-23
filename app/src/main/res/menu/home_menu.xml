@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share_post"
+        android:icon="@drawable/ic_share_variant_outline"
+        android:iconTint="@color/defaultColorTextActionBar"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/map_action"
+        android:icon="@drawable/ic_google_maps_white_24dp"
+        android:iconTint="@color/defaultColorTextActionBar"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/search_icon"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:iconTint="@color/defaultColorTextActionBar"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bookmarks_icon"
+        android:icon="@drawable/ic_favourite_outline"
+        android:iconTint="@color/defaultColorTextActionBar"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/report_icon"
+        android:icon="@drawable/ic_report_problem"
+        android:iconTint="@color/defaultColorTextActionBar"
+        android:title="@string/report_issue"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/logout_icon"
+        android:icon="@drawable/ic_lock_open_black_24dp"
+        android:iconTint="@color/defaultColorText"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+
+</menu>

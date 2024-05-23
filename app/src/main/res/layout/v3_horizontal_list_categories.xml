@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cat_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/spacing_middle"
+        android:paddingStart="@dimen/spacing_middle"
+        android:paddingBottom="@dimen/spacing_small">
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_weight="1"
+            android:text="@string/top_categories"
+            android:fontFamily="@font/my_default"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/card_show_more"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            android:layout_weight="1"
+            android:text="@string/view_all"
+            android:textAlignment="viewEnd"
+            android:fontFamily="@font/my_default"
+            android:textSize="@dimen/title_size_small"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_size_medium"
+        android:paddingEnd="@dimen/padding_size_medium"
+        app:shimmer_demo_angle="20"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_layout="@layout/v3_placeholder_item_category"
+        app:shimmer_demo_layout_manager_type="linear_horizontal" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/padding_size_medium"
+        android:paddingEnd="@dimen/padding_size_medium"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_banner_widget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_middle"
+    android:background="@color/colorPrimary"
+    android:foreground="@drawable/custom_bg"
+    app:cardCornerRadius="@dimen/rounded_radius"
+    app:cardElevation="4dp"
+    android:visibility="gone"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_middle">
+
+        <LinearLayout
+            android:id="@+id/left_side"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/spacing_large"
+            android:paddingEnd="@dimen/spacing_large">
+
+            <TextView
+                android:id="@+id/home_banner_widget_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/title_size_xlarge"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/home_banner_widget_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textColor="@color/colorWhite"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_side"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/spacing_middle"
+            android:layout_toRightOf="@id/left_side"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home_banner_widget_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/def_logo"
+                app:tint="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

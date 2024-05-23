@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Home">Rumah</string>
+    <string name="ManageThings">Pengurus Bisnes</string>
+    <string name="drawer_open">Buka</string>
+    <string name="drawer_close">Tutup</string>
+    <string name="search">Cari</string>
+    <string name="options_exit">Keluar</string>
+    <string name="oups_no_item_found">Oups!! Tiada item ditemui</string>
+    <string name="about">Tentang Kami</string>
+    <string name="Favoris">Kegemaran</string>
+    <string name="About_us">Tentang Kami</string>
+    <string name="Settings">Tetapan</string>
+    <string name="MapStores">Geo Kedai</string>
+    <string name="Login">Log Masuk</string>
+    <string name="Logout">Log Keluar</string>
+    <string name="parameter">Parameter</string>
+    <string name="close">Tutup</string>
+    <string name="categories">Kategori</string>
+
+    <string name="my_stores">"Kedai Saya</string>
+    <string name="my_events">"Acara Saya</string>
+
+    <!--category--><![CDATA[
+    >
+
+
+    ]]><!--event-->
+
+
+    <!--notification & messages-->
+    <string name="check_network">Periksa jaringan anda</string>
+    <string name="network_error">Tiada Jaringan! Klik untuk mencuba semula</string>
+    <string name="check_nework">Periksa sambungan jaringan anda</string>
+    <string name="enable_network">Aktifkan sambungan jaringan dalam peranti anda</string>
+
+    <string name="editProfile">Sunting Profil</string>
+
+    <!--store-->
+    <string name="store_to_far_map">Terlalu jauh untuk memapkan laluan</string>
+    <string name="store_call_error">Ralat dalam panggilan telefon anda</string>
+
+    <!--messages settings-->
+
+    <string name="settings_notifications">PEMBERITAHUAN</string>
+    <string name="settings_app_infos">APLIKASI</string>
+
+
+    <!-- OFFERS -->
+    <string name="settings_notification_offers">Terima pemberitahuan tawaran khas</string>
+    <string name="settings_notification_offers_title">Pemberitahuan tawaran</string>
+
+
+    <!-- EVENTS -->
+    <string name="settings_notification_events">Terima pemberitahuan apabila ada acara berhampiran</string>
+    <string name="settings_notification_events_title">Pemberitahuan acara berhampiran</string>
+
+    <!-- STORES -->
+    <string name="settings_notification_stores">Terima pemberitahuan apabila ada kedai berhampiran</string>
+    <string name="settings_notification_stores_title">Pemberitahuan kedai berhampiran</string>
+
+
+    <!-- MESSENGER -->
+    <string name="settings_notification_messenger">Terima pemberitahuan apabila ada mesej baru</string>
+    <string name="settings_notification_messenger_title">Pemberitahuan Messenger</string>
+
+    <!-- DISTANCE -->
+    <string name="settings_notification_distance_dis">%1$s %2$s</string>
+    <!-- APP_INFOS -->
+    <string name="settings_app_infos_title">Versi aplikasi</string>
+
+
+    <!--login & sign up-->
+
+    <string name="lessThan1km">Kurang dari 1 km</string>
+    <string name="MoreThan2km">+2 Km</string>
+    <string name="MoreThan5km">+5 Km</string>
+    <string name="MoreThan10km">+10 Km</string>
+
+    <string name="description">Perincian</string>
+
+    <string name="permission_disabled_notice">Aplikasi ini direka untuk berfungsi dengan kebenaran lokasi jika anda membatalkan kebenaran ini, anda mungkin berasa masalah dalam operasi</string>
+    <string name="save">Simpan</string>
+    <string name="find_new_neighbours">Cari jiran baru</string>
+
+    <string name="youHaveDiscussions">Anda mempunyai %1$d diskusi %2$d mesej</string>
+    <string name="youHaveMessage">Anda mempunyai mesej baru</string>
+    <string name="offers">Tawaran</string>
+    <string name="reviews">%1$s Ulasan</string>
+    <string name="noOffers">Tiada Tawaran</string>
+    <string name="noReviews">Tiada Ulasan</string>
+    <string name="addReview">Tambah Ulasan</string>
+    <string name="settings">Tetapan</string>
+    <string name="pseudo">Nama Samaran</string>
+    <string name="error">Whooops!</string>
+
+    <string name="selectRating">Sila pilih dari 1 bintang hingga 5 bintang</string>
+    <string name="pleaseWriteReview" translatable="false">Sila tulis ulasan</string>
+    <string name="writeReview">Tulis ulasan</string>
+    <string name="thankYou">Terima kasih!</string>
+
+    <string name="email">Emel</string>
+
+    <string name="people_around_me">Orang sekeliling saya</string>
+    <string name="promo">Promosi</string>
+
+    <string name="fileUploading">Memuat naik...</string>
+
+    <string name="rateUs">Sila berikan penarafan pada aplikasi</string>
+    <string name="rateIt">Beri penarafan</string>
+
+    <string name="you_ve_already_reviewd">Anda sudah menambahkan ulasan anda!</string>
+
+    <string name="shared_text">%1$s - Hanya pada %2$s \n %3$s</string>
+    <string name="reload">Muat Semula</string>
+    <string name="mail">Mel</string>
+    <string name="today">Hari ini</string>
+    <string name="Send_message">Kirim pesan</string>
+    <string name="version">versi :</string>
+    <string name="phone">Telefon</string>
+    <string name="app_privacy">Dasar Privasi</string>
+    <string name="app_term_of_uses">Syarat Penggunaan</string>
+
+    <string name="offer_start_at">Mulai pada %1$s</string>
+    <string name="offer_end_at">Berakhir pada %1$s</string>
+    <string name="offer_ended_at">Berakhir pada %1$s</string>
+
+    <string name="nbr_stores_message">%1$s toko</string>
+
+    <string name="tab_stores">Toko</string>
+    <string name="tab_offers">Tawaran</string>
+    <string name="tab_events">Acara</string>
+    <string name="your_destination">Tujuan Anda</string>
+    <string name="refresh">Segarkan</string>
+    <string name="no_users">Tidak ada pengguna</string>
+    <string name="settings_notification_upcomingevent">Menerima pemberitahuan saat ada acara baru yang akan datang</string>
+    <string name="settings_notification_upcomingevent_title">Acara Mendatang</string>
+
+    <string name="upComingEventMessage">Acara Mendatang</string>
+    <string name="upComingEventsMessage">Acara Mendatang segera</string>
+    <string name="upcomingTag">Mendatang</string>
+    <string name="myUpComingEvents">Acara Mendatang Saya</string>
+    <string name="chat_notification_title">Anda memiliki pesan baru</string>
+    <string name="authentification_error_msg">Nama Pengguna dan Kata Sandi tidak benar.</string>
+    <string name="gallery">Galeri</string>
+    <string name="noImages">Tidak ada Foto</string>
+    <string name="enable_network_map_direction">Silakan aktifkan jaringan anda</string>
+    <string name="enable_gps_map_direction">Silakan aktifkan GPS anda terlebih dahulu</string>
+
+
+    <string name="skip">Langkau</string>
+    <string name="start">Mula</string>
+    <string name="intro_slide_1_title">Cari dengan cepat Restoran, Hotel &amp;kedai</string>
+    <string name="intro_slide_1_description">Cubalah restoran-restoran terdekat, peta akan membimbing anda dengan perkhidmatan yang paling menarik</string>
+    <string name="intro_slide_2_title">Acara yang akan datang</string>
+    <string name="intro_slide_2_description">Hadiri acara-acara yang dianjurkan oleh beberapa kedai kegemaran anda, sertai dan dapatkan pemberitahuan push untuk acara yang akan datang</string>
+    <string name="intro_slide_3_title">Kedai-kedai Terdekat</string>
+    <string name="intro_slide_3_description">Tawaran, promosi, diskaun sentiasa ada untuk anda menjelajahi bagi setiap kedai terdekat.</string>
+    <string name="intro_slide_4_title">Nilai kedai terbaik anda</string>
+    <string name="intro_slide_4_description">Menjelajahi maklum balas sebelum mempercayai mana-mana kedai dan juga tinggalkan maklum balas anda</string>
+    <string name="alert_gps_dialog">Anda perlu membenarkan akses ke lokasi untuk menggunakan aplikasi, sila cuba lagi dan tekan OK</string>
+    <string name="confirm_gps_relaunch">Cuba lagi</string>
+    <string name="next">Seterusnya</string>
+    <string name="block">Blok</string>
+    <string name="unblock">Nyah-blok</string>
+    <string name="less_than_1_km">Kurang dari 1 km</string>
+    <string name="noDiscussions">Tiada Perbincangan</string>
+    <string name="searching_for_stores_bearby">Mencari kedai-kedai terdekat</string>
+    <string name="title_activity_v2_main" translatable="false">V2MainActivity</string>
+    <string name="Account">Akaun</string>
+    <string name="price">Harga</string>
+    <string name="discount">Diskaun</string>
+    <string name="photo">Foto(s)</string>
+    <string name="editPassword">Edit Kata Laluan</string>
+    <string name="navigation_drawer_open">Buka navigasi</string>
+    <string name="navigation_drawer_close">Tutup navigasi</string>
+    <string name="stores_nearby">Kedai-kedai Terdekat</string>
+    <string name="show_more">Paparkan Semua</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="offers_nearby">Tawaran Berdekatan</string>
+    <string name="events_nearby">Acara Akan Datang</string>
+    <string name="people_nearby">Orang Berdekatan</string>
+    <string name="enter_full_name">Masukkan Nama Penuh</string>
+    <string name="full_name">Nama Penuh</string>
+    <string name="enter_email">Masukkan Email</string>
+    <string name="enter_login">Masukkan Log Masuk</string>
+    <string name="login">Log Masuk</string>
+    <string name="login_required">Operasi ini memerlukan pengesahan</string>
+    <string name="authentication">Log Masuk</string>
+    <string name="open_time">Buka</string>
+    <string name="open_now">Buka Sekarang</string>
+    <string name="closed">Tutup</string>
+    <string name="join">Sertai</string>
+    <string name="call">Panggil</string>
+    <string name="unjoin">Bergabung</string>
+    <string name="select_category">Pilih Kategori</string>
+    <string name="discount_less_than_25" translatable="false">0-25%</string>
+    <string name="discount_less_than_50" translatable="false">25-50%</string>
+    <string name="discount_less_than_75" translatable="false">50-75%</string>
+    <string name="discount_less_than_100" translatable="false">75-100%</string>
+    <string name="write_name_address_city">Tulis Nama, Alamat, Bandar</string>
+    <string name="website">Laman Web</string>
+    <string name="begin_date">Tarikh Mula</string>
+    <string name="open_only">Buka Sahaja</string>
+    <string name="order_by_recent">Baru-baru ini</string>
+    <string name="order_by_geo">Geo</string>
+    <string name="location">Lokasi</string>
+    <string name="notify_me">Beritahu saya</string>
+    <string name="remind_me">Ingatkan Saya</string>
+    <string name="remind_me_msg">Dengan mengklik Ingatkan Saya, anda akan menerima pemberitahuan dari acara ini</string>
+    <string name="stores_result">Hasil Toko</string>
+    <string name="events_result">Hasil Acara</string>
+    <string name="offers_result">Hasil Tawaran</string>
+    <string name="recent_offers">Tawaran Terkini</string>
+    <string name="current_location">Lokasi Saat Ini</string>
+    <string name="price_one_number" translatable="false">$</string>
+    <string name="price_two_numbers" translatable="false">$$</string>
+    <string name="price_three_numbers" translatable="false">$$$</string>
+    <string name="price_four_numbers" translatable="false">$$$$</string>
+    <string name="radius">Radius</string>
+    <string name="distance">Jarak</string>
+    <string name="opening_time_label">Waktu Buka</string>
+    <string name="top_categories">Kategori</string>
+    <string name="notifications">Pemberitahuan</string>
+    <string name="inbox">Kotak Masuk</string>
+    <string name="network_not_available">Tidak bisa memuat data dari server</string>
+    <string name="retry">Coba lagi</string>
+    <string name="try_a_refresh_the_page">Coba refres halaman</string>
+    <string name="no_feed_yet">Belum Ada Feed</string>
+    <string name="no_message_yet">Belum Ada Pesan</string>
+    <string name="no_message_inbox">Tiada mesej dalam peti masuk anda lagi! Mula bersembang dengan rakan-rakan anda</string>
+    <string name="remove_from_bookmark">Keluarkan dari tanda buku</string>
+    <string name="error_try_later" translatable="false">Ada yang tidak kena, sila cuba lagi kemudian!</string>
+    <string name="confirm_password">Sahkan kata laluan</string>
+    <string name="enter_password">Masukkan Kata Laluan</string>
+    <string name="business_manager">Pengurus Perniagaan</string>
+    <string name="login_first">Daftar masuk dahulu</string>
+    <string name="do_you_want_to_change_your_location">Adakah anda mahu menukar lokasi anda?</string>
+    <string name="search_placeholder">Cari restoran, hotel ...</string>
+
+
+    <string name="dp_view_store_on">Buka kedai pada aplikasi</string>
+    <string name="dp_view_offer_on">Buka tawaran pada aplikasi</string>
+    <string name="dp_view_event_on">Buka acara pada aplikasi</string>
+
+
+    <string name="_DP_HOST_NAME" translatable="false">https://cooldial.in</string>
+    <string name="_DP_STORE_MESSAGE" translatable="false">@string/DP_STORE_MESSAGE</string>
+    <string name="_DP_OFFER_MESSAGE" translatable="false">@string/DP_OFFER_MESSAGE</string>
+    <string name="_DP_EVENT_MESSAGE" translatable="false">@string/DP_EVENT_MESSAGE</string>
+
+    <!--Set your google map key-->
+    <string name="map_api_key0" translatable="false">@string/map_api_key</string>
+    <string name="login_create_account">Login / Buat akaun</string>
+    <string name="forget_password">Lupa Kata Laluan ?</string>
+    <string name="sign_up">DAFTAR</string>
+    <string name="new_password">Kata Laluan Baru</string>
+    <string name="have_an_account">ADA AKAUN ?</string>
+    <string name="monday">Isnin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Khamis</string>
+    <string name="friday">Jumaat</string>
+    <string name="saturday">Sabtu</string>
+    <string name="sunday">Ahad</string>
+    <string name="redirected_to">"Dilencongkan ke "</string>
+    <string name="people_near_by">Orang berdekatan</string>
+    <string name="loading">Memuatkan...</string>
+    <string name="keep_current_location">Lokasi semasa</string>
+    <string name="change_location">Tukar lokasi</string>
+
+
+    <string name="your_order_has_been_sent_successfully">Tempahan anda telah berjaya dihantar!</string>
+    <string name="complet_required_fileds">Pastikan untuk lengkapkan ruangan yang diperlukan terlebih dahulu!</string>
+    <string name="location_format_not_correct">Format lokasi tidak betul</string>
+    <string name="location_address_not_correct">Alamat lokasi kosong</string>
+    <string name="click_marker_to_pick_location">Klik penanda sebelah kanan untuk memilih lokasi anda</string>
+
+
+    <string name="promotional_video">Video promosi</string>
+    <string name="checkout">Checkout</string>
+    <string name="detail">Detail</string>
+    <string name="confirm">Sahkan</string>
+    <string name="payment">Pembayaran</string>
+    <string name="done">Selesai</string>
+    <string name="payment_error">Ralat pembayaran</string>
+    <string name="confirm_order">Sahkan tempahan</string>
+    <string name="confirm_payment">Sahkan pembayaran</string>
+    <string name="required_field">Ruangan yang diperlukan</string>
+    <string name="find_my_place">Cari tempat saya</string>
+    <string name="something_went_wrong">Ada sesuatu yang salah, sila cuba kemudian!</string>
+    <string name="order_detail_checkout">Butiran tempahan</string>
+    <string name="pay_now">Bayar sekarang</string>
+    <string name="booking_id">ID Tempahan : %1$d</string>
+    <string name="basic_detail">Butiran asas</string>
+    <string name="item_s">Perkhidmatan(s)</string>
+    <string name="total">Jumlah</string>
+    <string name="booking_status">Status tempahan</string>
+    <string name="booking_detail">Butiran Tempahan %1$s</string>
+    <string name="book_btn">Tempah</string>
+    <string name="order_btn">Sahkan</string>
+    <string name="order_detail_btn">Butiran tempahan</string>
+    <string name="service_booking">Perkhidmatan</string>
+    <string name="reservation_detail">Butiran tempahan</string>
+    <string name="pickup_from">Butiran kedai</string>
+    <string name="store">Kedai</string>
+    <string name="address">Alamat</string>
+    <string name="go_to">Pergi ke Kedai</string>
+    <string name="booking">Tempahan</string>
+    <string name="Distance">Unit Jarak</string>
+    <string name="distance_100">+ 100 %1$s</string>
+    <string name="Date">Tarikh</string>
+    <string name="bookingid">ID Tempahan</string>
+    <string name="no_service_found_for_this_store">Malangnya tiada perkhidmatan untuk kedai ini</string>
+    <string name="discover_stores_nearby">Cari kedai berdekatan</string>
+    <string name="top_picked_for_you">Kedai terpilih terbaik untuk anda</string>
+    <string name="variant_additional_cost">%1$s</string>
+    <string name="subtotal">Subjumlah</string>
+    <string name="no_service_found">Tiada perkhidmatan ditemui</string>
+    <string name="paid_cash">dibayar dengan tunai</string>
+    <string name="payment_spot">bayar dengan tunai</string>
+    <string name="delete">Padam</string>
+    <string name="user_not_logged">Pengguna tidak log masuk</string>
+
+    <string name="receive_notif">Adakah anda ingin menerima pemberitahuan?</string>
+    <string name="recieve_notif_confirmation">\"Dengan mengklik Notify me, anda akan menerima pemberitahuan dari syarikat ini\"</string>
+
+    <string-array name="distanceUnit">
+        <item>mile</item>
+        <item>km</item>
+    </string-array>
+    <string name="title_activity_report_issue">Laporkan Isu Aktiviti</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Sebelumnya</string>
+
+    <string name="hello_first_fragment">Hello fragmen pertama</string>
+    <string name="report_other_issues">Laporkan isu lain</string>
+    <string name="provide_more_detal_for_issue">Berikan lebih banyak detail untuk isu</string>
+    <string name="report_saved">\"Laporan disimpan, terima kasih\"</string>
+    <string name="report_issue">Laporkan isu</string>
+    <string name="disableAccount">Nonaktifkan Akaun</string>
+    <string name="icon_angel_up">&#xf015;</string>
+
+
+
+    <string name="MapStoresMenu">Lokasi Kedai</string>
+    <string name="review_title">Ulasan</string>
+    <string name="load_more">Muatkan Lagi</string>
+    <!-- WE ADDED SOME MESSAGES IN UPDATE V1.2 YOU CAN PUT THEY IN YOUR MAIN STRINGS.XML -->
+    <string name="logout_alert">Akaun anda dikeluarkan log masuk, kerana akaun anda diblok atau dipadam\nMaklumat lanjut hubungi admin</string>
+    <string name="store_not_found">Tidak ditemui!</string>
+    <string name="seeMoreSlider">Lihat lagi</string>
+    <string name="MyQrCode">Kod QR</string>
+    <string name="here_is_my_code">Hello %1$s,\nIni adalah Kod QR anda</string>
+    <string name="scan_and_check_my_profile">><![CDATA[Imbas & periksa profil]]></string>
+    <string name="saveSuccessful">Berjaya disimpan!</string>
+    <string name="removeSuccessful">Berjaya dikeluarkan!</string>
+    <string name="all_categories_menu">Semua</string>
+    <string name="get_coupon_code">Dapatkan kupon</string>
+    <string name="scan_and_check_coupon">Imbas untuk memeriksa kupon</string>
+    <string name="sca">Imbas</string>
+    <string name="nav_open">Buka</string>
+    <string name="nav_close">Tutup</string>
+    <string name="my_account">Akaun Saya</string>
+    <string name="dashboard">Papan Pemuka</string>
+    <string name="scan">Imbas</string>
+    <string name="dont_have_permission">Anda tidak mempunyai keizinan untuk menguruskan bisnes</string>
+    <string name="qr_code_scanner">Pemindai Kod QR</string>
+    <string name="address_label">Alamat</string>
+    <string name="my_coupons">Kupon saya</string>
+    <string name="plans">Pelan</string>
+    <string name="youtube">Youtube</string>
+
+    <string name="coupon_unverified">Tidak Disahkan</string>
+    <string name="coupon_verified">Disahkan</string>
+    <string name="coupon_used">Digunakan</string>
+    <string name="coupon_canceled">Dibatalkan</string>
+
+    <string name="coupon_code">Kod: %1$s</string>
+
+    <string name="copy_coupon_code">Salin kod</string>
+    <string name="remove">Buang</string>
+    <string name="scan_profile_qr_code">Imbas profil pengguna</string>
+    <string name="scan_coupon_qr_code">Imbas kupon</string>
+    <string name="scan_reservation_qr_code">Imbas tempahan (Tempahan)</string>
+    <string name="my_bookings">Tempahan saya</string>
+    <string name="continueButton">Teruskan</string>
+    <string name="cancel">Batal</string>
+    <string name="checking_value_profile">Memeriksa profil</string>
+    <string name="checking_value_booking">Memeriksa tempahan</string>
+    <string name="checking_value_coupon">Memeriksa kupon</string>
+    <string name="user_not_found">Pengguna tidak ditemui!</string>
+    <string name="user_verified">Pengguna disahkan</string>
+    <string name="user_unverified">Pengguna tidak disahkan</string>
+    <string name="user_disabled">Pengguna dilumpuhkan</string>
+    <string name="continueScaningButton">teruskan pengimbasan</string>
+    <string name="booking_not_found">Tempahan tidak ditemui</string>
+    <string name="moreDetailBooking">Lebih terperinci</string>
+    <string name="unpaid">Belum dibayar</string>
+    <string name="updateStatusButton">Kemaskini status</string>
+    <string name="update_status">Kemaskini status tempahan</string>
+    <string name="confirmBooking">Sahkan tempahan</string>
+    <string name="cancelBooking">Batal tempahan</string>
+    <string name="dissmis">Abaikan</string>
+    <string name="coupon_not_valid">Kupon tidak sah</string>
+    <string name="mark_as_verified">Tandakan sebagai disahkan</string>
+    <string name="mark_as_declined">Tandakan sebagai ditolak</string>
+    <string name="mark_as_used">Tandakan sebagai digunakan</string>
+    <string name="update_coupon_status">Kemaskini status kupon</string>
+    <string name="mark_as_unverified">Tandakan sebagai tidak disahkan</string>
+    <string name="contact">Hubungi</string>
+    <string name="alert">Amaran</string>
+    <string name="are_you_sure_alert">Adakah anda pasti?</string>
+    <string name="booking_status_updated">"Status tempahan dikemaskini! "</string>
+    <string name="receive_notifications">Terima pemberitahuan</string>
+    <string name="app_notifications">Pemberitahuan aplikasi</string>
+    <string name="create_account">Cipta akaun</string>
+    <string name="term_of_uses_login_text"><![CDATA[Dengan log masuk ke %1$s, anda menerima <b>syarat penggunaan</b> dan <b>dasar privasi</b> kami]]></string>
+    <string name="term_of_uses_signup_text"><![CDATA[Dengan mencipta akaun di %1$s, anda menerima <b>syarat penggunaan</b> dan <b>dasar privasi</b> kami]]></string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="auth_sccuccful">Anda berjaya log masuk</string>
+    <string name="auth_failed">Pengesahan gagal</string>
+    <string name="show_coupon">Tunjuk kupon</string>
+    <string name="limited">Terhad</string>
+    <string name="limit_execeeded">Had telah melebihi had</string>
+    <string name="change_language">Tukar bahasa</string>
+    <string name="english">Bahasa Inggeris</string>
+    <string name="my_profile">Profil saya</string>
+    <string name="selected_transferBank">Dengan memilih pemindahan bank, anda akan menerima e-mel untuk melengkapkan pembayaran.</string>
+    <string name="to_apply_languageMessage">Untuk menggunakan bahasa anda perlu memulakan semula aplikasi</string>
+    <string name="business_manager_widget_title">%1$s untuk perniagaan</string>
+    <string name="business_manager_widget_description">Tingkatkan janaan lead dan pengambilan pelanggan anda.</string>
+
+</resources>

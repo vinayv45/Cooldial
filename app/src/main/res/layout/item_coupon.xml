@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_small">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/coupon_item_image_size"
+            android:layout_height="@dimen/coupon_item_image_size"
+            android:layout_margin="@dimen/spacing_middle"
+            app:cardCornerRadius="@dimen/radius_xsmall"
+            app:cardElevation="@dimen/spacing_small">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small">
+
+                <TextView
+                    android:id="@+id/label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_medium"
+                    android:layout_weight="1"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:text="--"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:tint="@color/defaultColorText"
+                    app:srcCompat="@drawable/ic_more_vert" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/coupon_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingLeft="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:paddingRight="@dimen/spacing_small"
+                android:singleLine="false"
+                android:text="Code: ---" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingTop="@dimen/spacing_small"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingLeft="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/spacing_small"
+                android:singleLine="false"
+                android:text="Verified" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

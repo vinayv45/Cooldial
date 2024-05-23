@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <net.orandja.shadowlayout.ShadowLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/card_rect_white"
+            app:shadow_radius="8"
+            app:shadow_x_shift="0dp"
+            app:shadow_y_shift="2dp"
+            app:shadow_downscale="1"
+            app:shadow_color="@color/card_shadow_color"
+            app:shadow_with_color="false"
+            app:shadow_with_dpi_scale="true"
+            app:shadow_with_css_scale="true"
+            app:shadow_cast_only_background="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/spacing_mlarge"
+            android:layout_marginBottom="@dimen/spacing_large">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/card_bg"
+                android:padding="10dp"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/card_bg">
+
+                    <ImageView
+                        android:id="@+id/navigation"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_menu_group"
+                        app:tint="@color/defaultColorText" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </net.orandja.shadowlayout.ShadowLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="@dimen/v3_location_marker_size"
+                android:layout_height="@dimen/v3_location_marker_size"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_location" />
+
+            <Button
+                android:id="@+id/locationPicker"
+                android:layout_centerVertical="true"
+                android:textAllCaps="false"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:fontFamily="@font/my_default"
+                android:background="@color/transparent"
+                android:text="@string/current_location"
+                android:textSize="@dimen/title_size_medium"
+                android:textColor="@color/gray_text"
+                android:maxWidth="@dimen/location_picker_width"
+                android:maxHeight="@dimen/location_picker_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <net.orandja.shadowlayout.ShadowLayout
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/card_rect_white"
+
+            app:shadow_radius="8"
+            app:shadow_x_shift="0dp"
+            app:shadow_y_shift="2dp"
+            app:shadow_downscale="1"
+            app:shadow_color="@color/card_shadow_color"
+            app:shadow_with_color="false"
+            app:shadow_with_dpi_scale="true"
+            app:shadow_with_css_scale="true"
+            app:shadow_cast_only_background="true"
+
+
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_large">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/card_bg"
+                android:padding="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/card_bg">
+
+                    <ImageView
+                        android:id="@+id/myQrCodeAction"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_qrcode_black_48dp"
+                        app:tint="@color/defaultColorText" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </net.orandja.shadowlayout.ShadowLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <net.orandja.shadowlayout.ShadowLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            app:shadow_radius="8"
+            app:shadow_x_shift="0dp"
+            app:shadow_y_shift="2dp"
+            app:shadow_downscale="1"
+            app:shadow_color="@color/card_shadow_color"
+            app:shadow_with_color="false"
+            app:shadow_with_dpi_scale="true"
+            app:shadow_with_css_scale="true"
+            app:shadow_cast_only_background="true"
+
+            android:background="@drawable/card_rect_white"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:layout_toStartOf="@id/cardFilter">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/lbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/card_bg">
+
+                    <EditText
+                        android:id="@+id/searchInput"
+                        android:focusable="false"
+                        android:focusableInTouchMode="true"
+                        android:inputType="textFilter"
+                        android:imeOptions="actionSearch"
+                        android:maxLines="1"
+                        android:layout_marginStart="@dimen/spacing_large"
+                        android:layout_marginEnd="@dimen/spacing_large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/search_placeholder"
+                        android:drawablePadding="15dp"
+                        app:drawableLeftCompat="@drawable/ic_search_grey_24dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/defaultColorText"
+                        android:textSize="@dimen/title_size_medium"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </net.orandja.shadowlayout.ShadowLayout>
+
+        <net.orandja.shadowlayout.ShadowLayout
+            android:id="@+id/cardFilter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/card_rect_white"
+
+            app:shadow_radius="8"
+            app:shadow_x_shift="0dp"
+            app:shadow_y_shift="2dp"
+            app:shadow_downscale="1"
+            app:shadow_color="@color/card_shadow_color"
+            app:shadow_with_color="false"
+            app:shadow_with_dpi_scale="true"
+            app:shadow_with_css_scale="true"
+            app:shadow_cast_only_background="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="@dimen/spacing_large"
+            android:layout_marginEnd="@dimen/spacing_large">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/card_bg"
+                android:padding="15dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:id="@+id/rlFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/card_bg">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/search_filter" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </net.orandja.shadowlayout.ShadowLayout>
+
+    </RelativeLayout>
+</LinearLayout>

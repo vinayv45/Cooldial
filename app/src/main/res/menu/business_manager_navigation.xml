@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:icon="@drawable/dashboard_chart_line"
+        android:iconTint="@color/gray"
+        android:id="@+id/nav_dashboard"
+        android:title="@string/dashboard" />
+
+    <item
+        android:visible="false"
+        android:icon="@drawable/ic_star_circle"
+        android:id="@+id/nav_plans"
+        android:title="@string/plans" />
+
+    <item
+        android:icon="@drawable/account_circle_outline"
+        android:iconTint="@color/gray"
+        android:id="@+id/nav_account"
+        android:title="@string/my_account" />
+
+    <item
+        android:icon="@drawable/qrcode_scan"
+        android:iconTint="@color/gray"
+        android:id="@+id/nav_scan_qrcode"
+        android:title="@string/scan" />
+
+    <item
+        android:icon="@drawable/exit_to_app"
+        android:iconTint="@color/gray"
+        android:id="@+id/nav_logout"
+        android:title="@string/Logout" />
+
+
+
+</menu>
